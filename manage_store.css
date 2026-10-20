@@ -1,0 +1,316 @@
+/* Background transparan putih */
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.store-container {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4a3a2a;
+}
+
+/* ADD STORE BUTTON */
+.add-btn {
+    display: inline-block;
+    background-color: #bd8f63;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.add-btn:hover {
+    background-color: #a67c54;
+}
+
+/* Table */
+.store-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.store-table th {
+    background-color: #d2a679;
+    padding: 12px;
+    color: white;
+    text-align: left;
+}
+
+.store-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #333;
+}
+
+/* Buttons */
+.manage-btn {
+    padding: 8px 14px;
+    background-color: #cfa47a;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.manage-btn:hover {
+    background-color: #b48a63;
+}
+
+.delete-btn {
+    padding: 8px 14px;
+    background-color: #cc463e;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    background-color: #b23a33;
+}
+
+/* ADD STORE PAGE */
+
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.form-card {
+    width: 55%;
+    background: #ffffffd9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.store-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.store-form input,
+.store-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #c59d5f;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #ad874e;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 15px;
+    color: #444;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    text-decoration: underline;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.coffee-container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    display: inline-block;
+    background: #bd8a61;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.success-msg {
+    padding: 10px;
+    background: #d4f8d4;
+    border-left: 4px solid green;
+    margin-bottom: 10px;
+}
+
+.coffee-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.coffee-table th {
+    background: #bd8a61;
+    color: white;
+    padding: 12px;
+}
+
+.coffee-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-btn {
+    background: #c0392b;
+    color: white;
+    padding: 6px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background: #e74c3c;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #444;
+}
+/* Add Coffee / Add Store Form Styling */
+
+.form-card {
+    width: 70%;
+    margin: 50px auto;
+    background: rgba(255,255,255,0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.form-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.store-form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+.store-form input,
+.store-form textarea {
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid rgb(200,200,200);
+    margin-top: 5px;
+}
+
+.btn-submit {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #c49e82;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #b0896b;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 15px;
+    color: #555;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin: 3px 0 10px 0;
+}
+.store-select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #c49b6c;
+    background-color: #fff;
+    color: #5a3e2b;
+    margin-bottom: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.store-select:hover {
+    border-color: #a97c50;
+}
+
+.store-select:focus {
+    box-shadow: 0 0 5px rgba(196, 155, 108, 0.6);
+}
+
+.menu-box {
+    background: #fff8f1;
+    border-radius: 12px;
+    padding: 18px 18px 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    border: 1px solid #e2c8ad;
+}
